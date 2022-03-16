@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Game Click</title>
+  </head>
+  <body>
+    <audio autoplay loop src="img/Song.mp3"></audio>
+    <div class="screen">
+      <h1>Game Click</h1>
+      <button class="btn" id="start-btn">Play Game</button>
+    </div>
+
+    <div class="screen">
+      <h1>choose your character!!</h1>
+      <ul class="insects-list">
+        <li>
+          <button class="choose-insect-btn">
+            <p>Monster</p>
+            <img src="img/Lbg6wpMn3YKDmrN-Dank-Meme-PNG-Transparent-Picture.png" alt="Monster">
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Anjing</p>
+            <img
+               src="img/Anjing shiba inu.png"
+               alt="Anjing"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Kucing</p>
+            <img
+               src="img/cat.png"
+               alt="Kucing"
+               />
+          </button>
+        </li>
+        <li>
+          <button class="choose-insect-btn">
+            <p>Squidward</p>
+            <img
+               src="img/Squid.png"
+               alt="Squidward"
+               />
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+      <h3 id="time" class="time">Time: 00:00</h3>
+      <h3 id="score" class="score">Score: 0</h3>
+      <h5 id="message" class="message">
+        Tanpa kamu sadari <br>
+        Kamu memainkan game yang mustahil untuk di selesaikan!!
+      </h5>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
